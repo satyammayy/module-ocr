@@ -8,7 +8,7 @@ require('dotenv').config(); // To load environment variables from a .env file
 // --- Configuration ---
 const PORT = process.env.PORT || 3000;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_MODEL_NAME = "gemini-pro-vision"; // Model capable of understanding images
+const GEMINI_MODEL_NAME = "gemini-1.5-flash"; // Model capable of understanding images
 
 // --- Initialize Express App ---
 const app = express();
